@@ -8,4 +8,4 @@ Crie uma aplicação Ionic 7, usando template “blank”. Essa aplicação deve
 um card contendo seu nome, seu código de turma e sua foto. Hospede no GitHub e faça um build
 para gerar um apk para android
 
- <img alt="foto" src="../assets/img/Screenshot_20240904_185158.png" />
+ <img alt="foto" src="src/assets/img/Screenshot_20240904_185158.png" />
