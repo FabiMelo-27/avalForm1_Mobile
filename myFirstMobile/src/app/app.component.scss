@@ -1,0 +1,62 @@
+.container{
+    background-image: url('../assets/img/fundo.png') ;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 400px;     
+    background: rgba(0, 0, 0, 0.6); 
+    border: 1px solid #3333;
+    box-shadow:   5px 5px 10px  rgba(255, 255, 255, 0.2); ;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  
+ 
+  .card img {
+    width: 60%;
+    height: auto; 
+    display: block; 
+    border-radius: 10%;    
+    margin: 16px auto;
+}
+  
+
+  ion-card-header {
+    
+    background:rgba(0, 0, 0, 0.4); 
+    justify-content: center;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  ion-card-title, ion-card-subtitle{
+    text-align: center;
+    justify-content: center;
+    
+  }
+  
+ 
+  ion-card-content {
+    padding: 16px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.6)
+    ; 
+     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12); 
+    
+  }
+
+  p{
+    text-align: center;
+    color: #444444;
+    font-weight: 600;
+  }
